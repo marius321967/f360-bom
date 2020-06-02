@@ -15,6 +15,9 @@ Put the `.csv` files into */input*.
 
 Run `node index.js`
 
+## Naming components
+Currently components must be named like `<title> <width>by<thickness> x <length>m`. Where width and thickness are in inches. Eg.: `BottomPlate 2by6 x 6m`.
+
 ## Functions
 - Report different cuts
 - Calculate theoretical volume of required material
