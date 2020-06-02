@@ -1,0 +1,1 @@
+All functions in this directory will process Cut array with chaining. Therefore each function must resolve with `Cut[]` for further processing.

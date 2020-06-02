@@ -1,0 +1,15 @@
+{
+  "name": "f360-bom",
+  "version": "1.0.0",
+  "description": "Parse, combine & calculate bill of materials from Fusion 360 CSV exports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.6",
+    "yargs": "^15.3.1"
+  }
+}
