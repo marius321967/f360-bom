@@ -11,7 +11,9 @@ module.exports = line => {
     const nameColumn = columns[2].trim();
     const params = parse_component_name(nameColumn);
     
+    if (!params) console.log(line);
     if (!params) return null;
+    
 
     return new Cut(params.name, params.width, params.thickness, params.length, amount);
 }

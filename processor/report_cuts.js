@@ -7,7 +7,7 @@ module.exports = cuts => {
     cuts.forEach(cut => {
         const nameCol = '[' + cut.name + ']';
         const nameColPadded = nameCol.padEnd(18, ' ');
-        console.log(' - ' + nameColPadded + ' thickness: ' + cut.thickness + '\twidth: ' + cut.width + '\tlength: ' + cut.length);
+        console.log(' - ' + nameColPadded + ' thickness: ' + cut.thickness + '\twidth: ' + cut.width + '\tlength: ' + cut.length + '\tamount: ' + cut.amount);
     })
 
     console.log();

@@ -1,4 +1,4 @@
-const pattern = /^([\w\s]+) (\d)+by(\d+) x ((\d+)(\.\d+)?)m$/
+const pattern = /^([\w\s-]+) (\d)+by(\d+) x ((\d+)(\.\d+)?)m$/
 
 /**
  * Parse BOM component name for some details on the construction material.
